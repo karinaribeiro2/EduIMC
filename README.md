@@ -1,50 +1,58 @@
-# 🎓 EtariX: Identificação de Faixa Etária
+Aqui está o **README** solicitado, adaptado para a aplicação de média ponderada:
 
-📌 Descrição
+# 🎓 Média Ponderada: Cálculo de Notas e Classificação
 
-EtariX é uma aplicação web desenvolvida em HTML, CSS e JavaScript que identifica a faixa etária de uma pessoa com base na idade informada pelo usuário.
+## 📌 Descrição
+**Média Ponderada** é uma aplicação web desenvolvida em **HTML, CSS e JavaScript** para calcular a média ponderada de um aluno com base em três notas, cada uma com um peso diferente. Após calcular a média, a aplicação classifica o aluno de acordo com uma tabela de desempenho.
 
-🎯 Funcionalidade
+---
 
-O usuário informa sua idade e recebe como resposta a categoria correspondente:
+## 🎯 Funcionalidade
+O usuário informa três notas e a aplicação calcula a média ponderada com base nos seguintes pesos:
+- **Atividade Prática em Laboratório (peso 2)**
+- **Prova do Semestre (peso 5)**
+- **Trabalho Teórico (peso 3)**
 
-🧒 0 a 14 anos → Criança
+A média é então classificada conforme a tabela abaixo:
+- **Acima de 9 a 10** → **A**
+- **Acima de 8 a 9** → **B**
+- **Acima de 7 a 8** → **C**
+- **Acima de 6 a 7** → **D**
+- **Acima de 5 a 6** → **E**
+- **Acima de 0 a 5** → **F**
 
-🧑 15 a 29 anos → Jovem
+---
 
-🧔 30 a 59 anos → Adulto
+## 🛠 Tecnologias Utilizadas
+- 🌐 **HTML** → Estrutura da interface
+- 🎨 **CSS** → Estilização dos elementos
+- 🚀 **JavaScript** → Lógica da aplicação
 
-👴 60 anos ou mais → Idoso
+---
 
-🛠 Tecnologias Utilizadas
+## 🚀 Como Executar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/Media-Ponderada.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd Media-Ponderada
+   ```
+3. Abra o arquivo **index.html** em um navegador.
 
-🌐 HTML → Estrutura da interface
+---
 
-🎨 CSS → Estilização dos elementos
-
-🚀 JavaScript → Lógica da aplicação
-
-🚀 Como Executar
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/EduCalc.git
-
-Acesse a pasta do projeto:
-
-cd EduCalc
-
-Abra o arquivo index.html em um navegador.
-
-📂 Estrutura do Projeto
-
-EduCalc/
+## 📂 Estrutura do Projeto
+```
+Media-Ponderada/
 │-- index.html          # Interface principal
-│-- faixa-etaria.js     # Script para cálculo da faixa etária
+│-- media-ponderada.js  # Script para cálculo da média ponderada
 │-- style.css           # Estilos da aplicação
 │-- README.md           # Documentação do projeto
+```
 
+---
 
-📜 Licença
-
+## 📜 Licença
 Este projeto foi desenvolvido para fins educacionais e pode ser utilizado livremente.
