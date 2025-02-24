@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Faixa Etária</title>
+    <title>Média Ponderada</title>
 </head>
 <body>
-    <div id="container">
-        <h2>Identifique a Faixa Etária</h2>
-        <label for="idade">Informe sua idade:</label>
-        <input type="number" id="idade" placeholder="Digite sua idade">
-        <button onclick="identificarFaixaEtaria()">Ver Faixa Etária</button>
-        <p id="resultado"></p>
-    </div>
+    <h2>Calculadora de Média Ponderada</h2>
     
-    <script src="faixa-etaria.js"></script>
+    <label for="nota1">Atividade Prática (peso 2):</label>
+    <input type="number" id="nota1" placeholder="Digite a nota 1"><br><br>
+
+    <label for="nota2">Prova do Semestre (peso 5):</label>
+    <input type="number" id="nota2" placeholder="Digite a nota 2"><br><br>
+
+    <label for="nota3">Trabalho Teórico (peso 3):</label>
+    <input type="number" id="nota3" placeholder="Digite a nota 3"><br><br>
+
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <p id="resultadoMedia"></p>
+
+    <script src="media-ponderada.js"></script>
 </body>
 </html>
