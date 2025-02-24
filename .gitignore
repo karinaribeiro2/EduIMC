@@ -1,0 +1,29 @@
+# Evita arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Evita dependências de Node.js (caso use pacotes)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Evita logs e arquivos temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.swp
+
+# Evita builds e caches
+dist/
+build/
+.cache/
+out/
+.vscode/
+.idea/
+
+# Evita arquivos de configuração locais
+.env
+.env.local
