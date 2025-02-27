@@ -1,9 +1,9 @@
 Aqui está o **README** solicitado, adaptado para a aplicação de média ponderada:
 
-# 🎓 Média Ponderada: Cálculo de Notas e Classificação
+# 🎓 NotaCerta: Cálculo de Notas e Classificação
 
 ## 📌 Descrição
-**Média Ponderada** é uma aplicação web desenvolvida em **HTML, CSS e JavaScript** para calcular a média ponderada de um aluno com base em três notas, cada uma com um peso diferente. Após calcular a média, a aplicação classifica o aluno de acordo com uma tabela de desempenho.
+**Nota Certa** é uma aplicação web desenvolvida em **HTML, CSS e JavaScript** para calcular a média ponderada de um aluno com base em três notas, cada uma com um peso diferente. Após calcular a média, a aplicação classifica o aluno de acordo com uma tabela de desempenho.
 
 ---
 
