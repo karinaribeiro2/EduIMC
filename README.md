@@ -1,5 +1,3 @@
-Aqui está o **README** solicitado, adaptado para a aplicação de média ponderada:
-
 # 🎓 NotaCerta: Cálculo de Notas e Classificação
 
 ## 📌 Descrição
