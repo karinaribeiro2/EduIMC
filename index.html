@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Média Ponderada</title>
 </head>
 <body>
-    <h2>Calculadora de Média Ponderada</h2>
+
+    <div id="container">
+        <h2>Calculadora de Média Ponderada</h2>
     
-    <label for="nota1">Atividade Prática (peso 2):</label>
-    <input type="number" id="nota1" placeholder="Digite a nota 1"><br><br>
+        <label for="nota1">Atividade Prática (peso 2):</label>
+        <input type="number" id="nota1" placeholder="Digite a nota 1"><br><br>
 
-    <label for="nota2">Prova do Semestre (peso 5):</label>
-    <input type="number" id="nota2" placeholder="Digite a nota 2"><br><br>
+        <label for="nota2">Prova do Semestre (peso 5):</label>
+        <input type="number" id="nota2" placeholder="Digite a nota 2"><br><br>
 
-    <label for="nota3">Trabalho Teórico (peso 3):</label>
-    <input type="number" id="nota3" placeholder="Digite a nota 3"><br><br>
+        <label for="nota3">Trabalho Teórico (peso 3):</label>
+        <input type="number" id="nota3" placeholder="Digite a nota 3"><br><br>
 
-    <button onclick="calcularMedia()">Calcular Média</button>
-    <p id="resultadoMedia"></p>
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <p id="resultadoMedia"></p>
+    </div>
 
+    
     <script src="media-ponderada.js"></script>
 </body>
 </html>
